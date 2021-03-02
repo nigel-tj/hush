@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">hush.io</string>
+    <string name="title_activity_main">hush.io</string>
+    <string name="package_name">hush.io.co.za</string>
+    <string name="custom_url_scheme">hush.io.co.za</string>
+</resources>
