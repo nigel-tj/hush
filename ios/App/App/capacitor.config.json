@@ -1,0 +1,27 @@
+{
+  "appId": "hush.io.co.za",
+  "appName": "hush.io",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+    "linuxAndroidStudioPath": "/home/nigel/work/android-studio/bin/studio.sh",  
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+      
+  },
+  "cordova": {
+    "preferences": {
+      "ScrollEnabled": "false",
+      "android-minSdkVersion": "19",
+      "BackupWebStorage": "none",
+      "SplashMaintainAspectRatio": "true",
+      "FadeSplashScreenDuration": "300",
+      "SplashShowOnlyFirstTime": "false",
+      "SplashScreen": "screen",
+      "SplashScreenDelay": "3000"
+    }
+     
+  }
+}

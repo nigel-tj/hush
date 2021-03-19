@@ -4,6 +4,7 @@ import { TabsPage } from './tabs-page';
 import { SchedulePage } from '../schedule/schedule';
 
 
+
 const routes: Routes = [
   {
     path: 'tabs',
@@ -54,6 +55,15 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: () => import('../about/about.module').then(m => m.AboutModule)
+          }
+        ]
+      },
+      {
+        path: 'hushout',
+        children: [
+          {
+            path: '',
+            loadChildren: () => import('../hushout/hushout.module').then(m => m.HushoutPageModule)
           }
         ]
       },

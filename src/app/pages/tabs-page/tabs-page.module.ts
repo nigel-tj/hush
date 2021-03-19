@@ -11,6 +11,8 @@ import { ScheduleModule } from '../schedule/schedule.module';
 import { SessionDetailModule } from '../session-detail/session-detail.module';
 import { SpeakerDetailModule } from '../speaker-detail/speaker-detail.module';
 import { SpeakerListModule } from '../speaker-list/speaker-list.module';
+import { HushoutPageModule} from '../hushout/hushout.module'
+import { from } from 'rxjs';
 
 @NgModule({
   imports: [
@@ -22,6 +24,7 @@ import { SpeakerListModule } from '../speaker-list/speaker-list.module';
     SessionDetailModule,
     SpeakerDetailModule,
     SpeakerListModule,
+    HushoutPageModule,
     TabsPageRoutingModule
   ],
   declarations: [
